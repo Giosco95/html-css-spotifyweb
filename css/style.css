@@ -1,0 +1,172 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg-color-general{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,113,9,1) 18%, rgba(0,212,255,1) 100%);
+
+}
+
+aside {
+    height:calc(100vh - 100px);
+    width: 200px;
+    float:left;
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+}
+
+header {
+    width: calc(100% - 200px);
+    height:100px;
+    float:left;
+    /*background-color: lightgrey;*/
+}
+
+main {
+    width: calc(100% - 200px);
+    height:calc(100vh - 200px);
+    float:left;
+    color:#fff;
+    padding:80px;
+    overflow-y: auto;
+    /*background-color: azure;*/
+}
+
+.player {
+    height:100px;
+    width:100%;
+    float:left;
+    background-color: black;
+
+}
+
+.logo{
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.menu ul li {
+  list-style: none;
+  color: white;
+}
+
+.menu ul li:hover{
+  text-decoration: underline;
+}
+
+.ascoltati{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.ascoltati p{
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.ascoltati ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.ascoltati ul li{
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.ascoltati ul li:hover{
+  text-decoration: underline;
+}
+
+.utente{
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.utente p{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.utente hr{
+  width: 160px;
+}
+
+.evid{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  /*border: 1px solid black;*/
+
+
+}
+
+.testo ul{
+  list-style: none;
+  line-height: 70px;
+
+}
+
+.testo ul li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.testo ul li:hover{
+  text-decoration: underline;
+}
+
+.creatoxte, .recently_played{
+  margin: 0 150px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+
+}
+
+.canzoni{
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.canzoni img{
+  width: 100%;
+  border-radius: 50%;
+
+}
